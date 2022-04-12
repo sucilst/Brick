@@ -1,0 +1,149 @@
+{
+  "report": {
+    "title": "Serenity Summary Report",
+    "tagCategoryTitle": "Category",
+    "version": "",
+    "date": "2022-04-12T20:22:42.453"
+  },
+  "results": {
+    "counts": {
+      "total": 2,
+      "success": 2,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "percentages": {
+      "success": 100,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "totalTestDuration": "40s",
+    "totalClockDuration": "29s",
+    "minTestDuration": "11s",
+    "maxTestDuration": "29s",
+    "averageTestDuration": "20s"
+  },
+  "resultsByFeature": [
+    {
+      "featureName": "Login",
+      "scenarios": [
+        {
+          "title": "Login Success",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "featureName": "Register",
+      "scenarios": [
+        {
+          "title": "Register Success",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frequentFailures": [
+  ],
+  "unstableFeatures": [
+  ],
+  "coverage": [
+    {
+      "tagTitle": "Feature",
+      "tagCoverages": [
+        {
+          "tagName": "Login",
+          "testCount": 1,
+          "successRate": "100%",
+          "counts": {
+            "total": 2,
+            "success": 1,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        },
+        {
+          "tagName": "Register",
+          "testCount": 1,
+          "successRate": "100%",
+          "counts": {
+            "total": 2,
+            "success": 1,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagType": "",
+      "tagResults": [
+        {
+          "tagName": "Login",
+          "count": 1
+        },
+        {
+          "tagName": "sequence",
+          "count": 2
+        },
+        {
+          "tagName": "Register",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
+
+
+

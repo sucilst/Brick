@@ -1,0 +1,7 @@
+Test/Register.class
+CucumberTestSuite.class
+Test/Login.class
+Steps/LoginSteps.class
+Pages/LoginPages.class
+Pages/RegisterPages.class
+Steps/RegisterSteps.class

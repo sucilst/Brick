@@ -1,0 +1,247 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": ": Register Success",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17443236333,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open the Register page",
+            "match": {
+              "location": "Register.userOpenTheRegisPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1074485917,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Do Register",
+            "match": {
+              "location": "Register.doRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1058387334,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Register",
+            "match": {
+              "location": "Register.clickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68234833,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Register Successfully",
+            "match": {
+              "location": "Register.registerSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Login Success",
+        "description": "",
+        "id": "login;login-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1046461541,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User open the Login page",
+            "match": {
+              "location": "Login.userOpenTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246712834,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Do Login",
+            "match": {
+              "location": "Login.doLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4950920459,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Login",
+            "match": {
+              "location": "Login.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52247208,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Login Successfully",
+            "match": {
+              "location": "Login.loginSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@sequence"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@sequence",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Register Success",
+        "description": "",
+        "id": "register;register-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7290231958,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open the Register page",
+            "match": {
+              "location": "Register.userOpenTheRegisPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 878187875,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Do Register",
+            "match": {
+              "location": "Register.doRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1018836958,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Register",
+            "match": {
+              "location": "Register.clickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50041083,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Register Successfully",
+            "match": {
+              "location": "Register.registerSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@sequence"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@sequence",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
